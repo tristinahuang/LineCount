@@ -17,6 +17,10 @@ Average lines per file: 19.25
 ```
 Your solution should come with a README, suitable unit tests and should pass pylint.
 Please make a git repository with your solution available at least two business days before the interview, so we have time to review it.
+## Setup
+```txt
+pip install -r requirement.txt
+```
 
 ## Usage
 
