@@ -17,7 +17,12 @@ Average lines per file: 19.25
 ```
 Your solution should come with a README, suitable unit tests and should pass pylint.
 Please make a git repository with your solution available at least two business days before the interview, so we have time to review it.
+## Development Environment
+
+macOS12.4 + python3.6.9
+
 ## Setup
+
 ```txt
 pip install -r requirement.txt
 ```
@@ -29,7 +34,7 @@ Standerd:
 python3 line_count.py directory_path 
 ```
 
-Optional:
+With the optional argument:
 There are three filename extension (.txt, .docx, .pdf) can choose as optional argument.
 ```txt
 python3 line_count.py directory_path .pdf
@@ -37,20 +42,11 @@ python3 line_count.py directory_path .pdf
 
 ## Result
 
-### Testing environment
-Macbook Pro
-
-Processor: 2.6 GHz 6-Core Intel Core i7
-
-Memory: 16 GB 2667 MHz DDR4
-
-Python Version: 3.96
-
 ### Unit tests
-- Standerd & with optional argument
+- Standerd & With the optional argument
   <img width="931" alt="image" src="https://user-images.githubusercontent.com/15319203/192912318-68992da1-621b-410c-b568-35cb4bfbf313.png">
 
-- Get not allow file extesion
+- Get not allow file extension
   <img width="933" alt="image" src="https://user-images.githubusercontent.com/15319203/192912382-f82b8e75-4426-4fb1-8279-7bd571c704a5.png">
 
 - Wrong directory
