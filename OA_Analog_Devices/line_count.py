@@ -30,16 +30,6 @@ from PyPDF2 import PdfFileReader
 class LineCount:
     '''Get the files information from input directory path.'''
 
-    # dir_path = os.path.dirname(os.path.realpath(__file__))
-    # print(dir_path)
-
-    #python3 line_count.py /Users/hsiaotinghuang/Desktop/OA_Analog_Devices/Test
-
-    #thing
-    #write readme
-    #take a video for demo
-    #write a doc for structure
-
     def __init__(self):
         self.file_path = []
         self.file_info = []
