@@ -22,33 +22,42 @@ Please make a git repository with your solution available at least two business 
 
 Standerd:
 ```txt
-python3 line_count.py /Users/hsiaotinghuang/Desktop/OA_Analog_Devices/Test 
+python3 line_count.py directory_path 
 ```
 
 Optional:
 There are three filename extension (.txt, .docx, .pdf) can choose as optional argument.
 ```txt
-python3 line_count.py /Users/hsiaotinghuang/Desktop/OA_Analog_Devices/Test .pdf
+python3 line_count.py directory_path .pdf
 ```
 
 ## Result
 
 ### Testing environment
 Macbook Pro
-Processor 2.6 GHz 6-Core Intel Core i7
-Memory 16 GB 2667 MHz DDR4
+
+Processor: 2.6 GHz 6-Core Intel Core i7
+
+Memory: 16 GB 2667 MHz DDR4
+
+Python Version: 3.96
 
 ### Unit tests
 - Standerd & with optional argument
-![image](https://user-images.githubusercontent.com/15319203/192910189-fc6a55ec-c00a-449a-bb4f-40c98103ef3b.png)
+  <img width="931" alt="image" src="https://user-images.githubusercontent.com/15319203/192912318-68992da1-621b-410c-b568-35cb4bfbf313.png">
+
 - Get not allow file extesion
-![image](https://user-images.githubusercontent.com/15319203/192910218-46ebf072-57d4-47fc-9e31-df84ec3bd8ba.png)
+  <img width="933" alt="image" src="https://user-images.githubusercontent.com/15319203/192912382-f82b8e75-4426-4fb1-8279-7bd571c704a5.png">
+
 - Wrong directory
-![image](https://user-images.githubusercontent.com/15319203/192910286-b3718d92-666f-4334-a444-191155b453a8.png)
-- File extension does not exist
-![image](https://user-images.githubusercontent.com/15319203/192910003-8f51a499-1289-48b2-97aa-89e3bfba8b25.png)
+  <img width="922" alt="image" src="https://user-images.githubusercontent.com/15319203/192912441-8ac08f81-a275-4f49-9ef1-0610bec12cc8.png">
+
+- File extension does not exist in the path
+  <img width="989" alt="image" src="https://user-images.githubusercontent.com/15319203/192912631-3a720e5e-9645-4176-a93b-f573a2c35789.png">
+
 
 ### Pylint result
-![image](https://user-images.githubusercontent.com/15319203/192910513-bc80e14f-d57e-4eaa-b399-4c209e01a84c.png)
+<img width="859" alt="image" src="https://user-images.githubusercontent.com/15319203/192911992-5f9bc43c-b8cb-4b19-9184-69ff971fcc69.png">
+
 
 
